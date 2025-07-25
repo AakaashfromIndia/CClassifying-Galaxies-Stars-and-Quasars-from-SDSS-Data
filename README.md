@@ -2,7 +2,7 @@
 
 Comparison of several machine learning models for the automated classification of celestial objects - galaxies, stars, and quasi-stellar objects (QSOs) using data obtained from the Sloan Digital Sky Survey (SDSS). It aims to enhance astrophysical classification by applying a data-driven approach and evaluating various algorithms for performance and accuracy.
 
-## Project Overview
+## Overview
 
 - **Goal:** Distinguish between galaxies, stars, and quasars using supervised machine learning techniques.
 - **Data Source:** Sloan Digital Sky Survey (SDSS) DR16 Spectroscopic and Photometric data.
@@ -99,19 +99,3 @@ Each model file shows:
 
 - **Best Performing Models:** Results are summarized within each notebook; generally, ensemble methods (Random Forest, Gradient Boosting, LightGBM, XGBoost) tend to outperform simpler baselines on this dataset.
 - See individual notebooks for detailed performance metrics and confusion matrices.
-
-## Contributing
-
-Contributions and suggestions are welcome!  
-Feel free to open issues or submit pull requests for improvements, new models, or additional analyses.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- Sloan Digital Sky Survey (SDSS) for the publicly available dataset and SkyServer query tools.
-- Scikit-learn, LightGBM, XGBoost, and Jupyter teams for the open-source tools that made this work possible.
-
-[1] https://github.com/AakaashfromIndia/Classifying-Galaxies-Stars-and-Quasars-from-SDSS-Data
